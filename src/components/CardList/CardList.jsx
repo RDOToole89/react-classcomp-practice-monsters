@@ -3,7 +3,6 @@ import Card from '../Card/Card';
 import './CardList.css';
 
 function CardList(props) {
-  console.log(props);
   return (
     <div className='card-list'>
       {' '}
