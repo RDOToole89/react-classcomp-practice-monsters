@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-classcomp-practice-monsters/static/css/main.6a71517b.chunk.css",
+    "main.js": "/react-classcomp-practice-monsters/static/js/main.19084a40.chunk.js",
+    "main.js.map": "/react-classcomp-practice-monsters/static/js/main.19084a40.chunk.js.map",
+    "runtime-main.js": "/react-classcomp-practice-monsters/static/js/runtime-main.84721bf7.js",
+    "runtime-main.js.map": "/react-classcomp-practice-monsters/static/js/runtime-main.84721bf7.js.map",
+    "static/js/2.feaeef0a.chunk.js": "/react-classcomp-practice-monsters/static/js/2.feaeef0a.chunk.js",
+    "static/js/2.feaeef0a.chunk.js.map": "/react-classcomp-practice-monsters/static/js/2.feaeef0a.chunk.js.map",
+    "index.html": "/react-classcomp-practice-monsters/index.html",
+    "static/css/main.6a71517b.chunk.css.map": "/react-classcomp-practice-monsters/static/css/main.6a71517b.chunk.css.map",
+    "static/js/2.feaeef0a.chunk.js.LICENSE.txt": "/react-classcomp-practice-monsters/static/js/2.feaeef0a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.84721bf7.js",
+    "static/js/2.feaeef0a.chunk.js",
+    "static/css/main.6a71517b.chunk.css",
+    "static/js/main.19084a40.chunk.js"
+  ]
+}
