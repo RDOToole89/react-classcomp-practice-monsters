@@ -10,6 +10,7 @@ class App extends Component {
     this.state = {
       monsters: [],
       searchField: '',
+      title: '',
     };
 
     // wat to bind this to regular functions
@@ -17,7 +18,7 @@ class App extends Component {
   }
 
   handleChange = (e) => {
-    this.setState({ searchField: e.target.value });
+    this.setState({ searchField: e.target.value, title: e.target.value });
   };
 
   componentDidMount() {
@@ -32,13 +33,14 @@ class App extends Component {
   }
 
   render() {
-    const { monsters, searchField } = this.state;
+    const { monsters, searchField, title } = this.state;
     const filteredMonsters = monsters.filter((monster) => {
       return monster.name.toLowerCase().includes(searchField.toLowerCase());
     });
     return (
       <div className='App'>
         <h1>Monsters Rolodex</h1>
+        <p>{title}</p>
         <SearchBox
           placeholder='search monsters'
           handleChange={this.handleChange}
